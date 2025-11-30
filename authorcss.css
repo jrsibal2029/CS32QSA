@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://www.travel-palawan.com/wp-content/uploads/2024/09/Coron-Palawan-Philippines-1-scaled.jpeg);
+  background-image: url(https://www.travel-palawan.com/wp-content/uploads/2024/09/Coron-Palawan-Philippines-1-scaled.jpeg);
     background-size: cover;
     background-repeat: no-repeat ;
     background-attachment: fixed;
@@ -11,6 +11,7 @@ header {
   color: white;
 }
 .topnav {
+    background: #0078d4;
     font-family: "Poppins", sans-serif;
     justify-content: end;
 }
@@ -47,47 +48,47 @@ header {
 .name:hover {
     color: #ffdb29;
 }
-.main  {
+.title {
+    padding-top: 225px;
+    padding-bottom: 225px;
+}
+.title h1 {
     font-family: "Poppins", sans-serif;
-    justify-content: center;
-    font-size: 120px;
-    color: white;
+    color:white;
     font-weight: bold;
-    margin-top: 125px ;
-    margin-bottom: -20px;
-    transition: font-size ease 0.3s;
-}
-.main:hover {
-     font-size: 130px;
-     cursor: default;
-}
-.expl {
-    font-family: "Poppins", sans-serif;
-    color: white;
-}
-.buton {
-    justify-content: center;
-}
-.buton a {
-    font-family: "Poppins", sans-serif;
-    font-size: 25px;
-    color: black;
-    text-decoration: none;
-    padding: 25px;
-    background-color: white;
-    border-radius: 22px;
-    margin-top: -30px;
+    font-size: 100px;
     transition: all ease 0.3s;
 }
-.buton a:hover {
-     font-size: 27px;
-     padding: 27px;
-     color: #3a8dbd;
-     cursor: pointer;
+.title h1:hover {
+    font-size: 105px;
+    color: #ffdb29;
+    cursor: default;
 }
-.song {
-    justify-content: center;
-    margin-top: -50px;
+.one {
+    background-color: #f6f6f6 ;
+    font-family: "Poppins", sans-serif;
 }
-
-
+.two {
+    background-color: #d5d5d3 ;
+    font-family: "Poppins", sans-serif;
+}
+.three {
+    background-color: #b1b2ad ;
+    font-family: "Poppins", sans-serif;
+}
+.four {
+    background-color: #0078d4 ;
+    font-family: "Poppins", sans-serif;
+}
+.four h2 {
+    color: white;
+    transition: all ease 0.3s;
+}
+.four h2:hover {
+    font-size: 40px;
+    color: #ffdb29;
+    cursor: default;
+}
+.four p {
+    color: white;
+}
